@@ -1,9 +1,10 @@
 name: Deploy to S3
 
 on:
-  push:
-    branches:
-      - main  # or your deploy branch
+  # push:
+  #   branches:
+  #     - main  # or your deploy branch
+  workflow_dispatch:
 
 jobs:
   deploy:
