@@ -17,6 +17,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + My React</h1>
+      <h2>{import.meta.env.VITE_MOBILE_NUMBER}</h2>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
